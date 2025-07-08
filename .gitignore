@@ -1,1 +1,12 @@
+# Ignorer les fichiers et répertoires temporaires
 /tmp
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.log
+crash.log
+*.pem
+*.key
+*.crt
+terraform.tfvars
